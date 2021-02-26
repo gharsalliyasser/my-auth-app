@@ -9,7 +9,6 @@ import TableBody from '@material-ui/core/TableBody';
 import Table from './Table'
 import Input from './Input'
 import Button from './Button'
-import arrowIcon from '../images/arrow_back.svg'
 import { updateUser } from '../actions/auth'
 
 const EditTable = () => {
@@ -38,7 +37,6 @@ const EditTable = () => {
     <React.Fragment>
       <div className={classes.arrow}>
       <Link to="/user" className={classes.backIcon}>
-        <img src={arrowIcon} alt="previous"/>
         Back
       </Link>
       </div>

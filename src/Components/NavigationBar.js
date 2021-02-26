@@ -7,7 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import logo from '../images/devchallenges.svg'
 
 const NavigationBar = () => {
   const classes = useStyles();
@@ -32,7 +31,6 @@ const NavigationBar = () => {
         <Toolbar className={classes.toolbar}>
           <Link to="/user">
             <IconButton edge="start" className={classes.menuButton} aria-label="menu">
-              <img src={logo} alt="logo"/>
             </IconButton>
           </Link>
             <div>

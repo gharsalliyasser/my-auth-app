@@ -10,7 +10,6 @@ import FormControl from '@material-ui/core/FormControl'
 import Input from './Input'
 import Button from './Button'
 import SocialLinks from './SocialLinks'
-import logo from '../images/devchallenges.svg'
 
 const Login = () => {
 
@@ -50,7 +49,6 @@ const Login = () => {
   return (
     <React.Fragment>
       <MuiCard className={classes.card}>  
-        <img src={logo} alt="logo" />
         <form className={classes.formInputs} onSubmit={handleSubmit}>
           <FormControl>
             <Input

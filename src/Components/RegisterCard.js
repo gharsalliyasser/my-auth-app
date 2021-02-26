@@ -9,7 +9,6 @@ import FormControl from '@material-ui/core/FormControl'
 import Input from './Input'
 import Button from './Button'
 import SocialLinks from './SocialLinks'
-import logo from '../images/devchallenges.svg'
 
 const RegisterCard = () => {
   const dispatch = useDispatch()
@@ -47,10 +46,8 @@ const RegisterCard = () => {
   return (
     <React.Fragment>
       <MuiCard className={classes.card}>
-        <img src={logo} alt="logo" />
         <div className={classes.header}>
-          <h3>Join thousands of learners around the world</h3>
-          <p>REGISTRATION</p>
+                    <p>REGISTRATION</p>
         </div>
         <form className={classes.formInputs} onSubmit={handleSubmit}>
           <FormControl>
